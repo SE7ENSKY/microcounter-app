@@ -1,0 +1,32 @@
+{
+  "name": "microcounter-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/app.coffee",
+  "scripts": {
+    "start": "node_modules/.bin/coffee src/app.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Se7enSky/microcounter-app.git"
+  },
+  "keywords": [
+    "microcounter",
+    "counter",
+    "visits",
+    "node",
+    "mongo",
+    "stupid",
+    "simple"
+  ],
+  "author": "Ivan Kravchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Se7enSky/microcounter-app/issues"
+  },
+  "homepage": "https://github.com/Se7enSky/microcounter-app",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "mongodb": "^1.4.9"
+  }
+}
